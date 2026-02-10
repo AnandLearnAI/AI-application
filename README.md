@@ -2,10 +2,14 @@
 
 ## Run locally
 
-1. Start a static server from the repo root:
+1. Start a static server from the repo root (make sure your terminal is in the folder that contains `index.html`):
 
    ```bash
+   # macOS/Linux
    python -m http.server 8000
+
+   # Windows (PowerShell or CMD)
+   py -m http.server 8000
    ```
 
 2. Open the game in your browser:
